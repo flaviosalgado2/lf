@@ -20,4 +20,14 @@ return [
         'username' => 'root',
         'password' => 'admin'
     ],
+    'mail' => [
+        'name'              => 'smtp.mailtrap.io',
+        'host'              => 'smtp.mailtrap.io',
+        'port'              => 2525,
+        'connection_class'  => 'crammd5',
+        'connection_config' => [
+            'username' => '8742c0194b4c97',
+            'password' => 'bdea4f03e2cc10',
+        ],
+    ]
 ];
