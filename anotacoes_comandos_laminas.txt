@@ -1,0 +1,2 @@
+#recarregar classes e modulos no composer
+composer dumpautoload
