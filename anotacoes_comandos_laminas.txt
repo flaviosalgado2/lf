@@ -1,2 +1,8 @@
 #recarregar classes e modulos no composer
 composer dumpautoload
+
+#rodar projeto
+php -S localhost:<your port number> -t public
+
+#rodar projeto pelo composer
+composer serve
